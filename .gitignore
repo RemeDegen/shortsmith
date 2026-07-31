@@ -1,0 +1,29 @@
+# secrets
+.env
+
+# models — 6.5 GB, downloaded during setup (keep the directory, not the contents)
+models/*
+!models/.gitkeep
+
+# node
+video/node_modules/
+node_modules/
+
+# generated output
+out/*.mp4
+audio/*.mp3
+audio/*.words.json
+visuals/plates/*.png
+visuals/plates/*.metadata.json
+video/public/plates/*.png
+video/public/*.mp3
+!video/public/example.mp3
+
+# your content — this repo ships the machinery, not the material
+sources/*/
+scripts/*.md
+plans/*.base.json
+plans/*.json
+!plans/example.json
+
+.DS_Store
