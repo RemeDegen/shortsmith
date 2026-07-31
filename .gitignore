@@ -26,4 +26,7 @@ plans/*.base.json
 plans/*.json
 !plans/example.json
 
+# your own research notes — private working material, of no use to anyone cloning this
+research/
+
 .DS_Store
