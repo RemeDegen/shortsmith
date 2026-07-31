@@ -351,7 +351,7 @@ one-to-many.
 
 ```
 SOURCE slug = <YYYY-MM-DD>-<simplified-video-title>
-              e.g. 2026-07-29-is-anthropic-stealing-your-data
+              e.g. 2026-07-29-how-agents-actually-fail
               used by: sources/<source-slug>/
 
 SHORT slug  = <simplified-title>        (NO date)
